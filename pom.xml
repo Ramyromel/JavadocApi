@@ -48,8 +48,7 @@
             </filter>
           </filters>
           <transformers>
-            <transformer
-              implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
               <manifestEntries>
                 <Main-Class>de.ialistannen.javadocapi.indexing.Indexer</Main-Class>
               </manifestEntries>
@@ -116,7 +115,7 @@
     <dependency>
       <groupId>org.xerial</groupId>
       <artifactId>sqlite-jdbc</artifactId>
-      <version>3.39.2.1</version>
+      <version>3.45.1.0</version>
     </dependency>
 
     <dependency>
